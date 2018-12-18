@@ -1,0 +1,138 @@
+h1{
+	color: #333;
+}
+.clear:after{
+	content: "";
+	display: table;
+}
+.clear:after{
+	clear:both;
+}
+.filtrate-content{
+	padding-left: 25px;
+	.filtrate-header{
+		padding: 20px 0;
+		i{
+			display: inline-block;
+			text-align: center;
+			color: #fff;
+			width: 20px;
+			font-style: normal;
+			height: 20px;
+			font-size: 16px;
+			border-radius: 10px;
+			background-color: #2186ED;
+			margin-right: 20px;	
+		}	
+	}
+	.filtrate-header-data{
+		float: left;
+		font-size: 20px;
+		color: #333;
+	}
+	p{
+		float: left;
+		width: 30%;
+		height: 15px;
+		border-bottom: 1px solid #ccc;
+		margin: 0 15px;
+	}
+	.filtrate-header-result{
+		float: left;
+		font-size: 20px;
+		color: #999;
+		i{
+			background-color: #ccc;
+		}
+	}
+}
+.filtrate-title{
+	padding-bottom: 20px;
+	border-bottom:1px solid #bbb;
+	margin-top: 20px;
+}
+.filtrate{
+	margin-top: 20px;
+	margin-right: 20px;
+	border: 1px solid #bbb;
+}
+.filtrate-list{
+	position: relative;
+	overflow: hidden;
+	.filtrate-list-left{
+		min-width: 120px;
+		text-align: center;
+		// line-height: 61px;
+		padding-top:20px;
+		color: #666;
+		background-color: #DEEEFF;
+	}
+	.filtrate-list-right{
+		float: left;
+		width: 90%;
+		min-width: 500px;
+	}
+	.filtrate-list-name{
+		 border-bottom: 1px solid #bbb;
+		 .el-checkbox-group{
+		 	float: left;
+		 	width: 100%;
+		 }
+		 .el-checkbox__inner{
+		 	display: none;
+		 }
+		 .el-checkbox-button{
+		 	float: left;
+		 	padding: 15px 20px;
+			span{
+				color: #666;
+				border-radius: 20px;
+				padding: 7px 20px;
+				border: 1px solid #bbb;
+			}
+		 }
+		 .el-checkbox-button.is-checked .el-checkbox-button__inner{
+		 	color: #fff;
+		 	border: 1px solid #2186ED;
+		 }
+		 .all .el-checkbox-button.is-checked .el-checkbox-button__inner{
+		 	color: #666;
+		 	background: #fff;
+		 	border: 1px solid #bbb;
+		 }
+	}
+	.operation-note{
+		border: 1px solid #eee;
+		width: 90%;
+		margin: 20px;
+		.operation-note-left{
+			background-color: #DEEEFF;
+
+			>span{
+				color: #666;
+				padding-left:15px;
+			}
+			label{
+				float: none;
+				margin-left: 20px;
+			}
+		}
+		.el-checkbox-group{
+			margin-left: 80px;
+		}
+		.checked{
+          color: #fff !important;
+		  border: 1px solid #2186ED !important;
+		  background-color: #2186ED !important;
+	    }
+	}
+}
+.filtrate-button{
+	clear: both;
+	margin:30px 0;
+	text-align: center;
+	button {
+		padding: 11px 54px;
+		margin-right: 30px;
+	}
+}

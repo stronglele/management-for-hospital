@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.clear:before,
+.clear:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+textarea {
+  white-space: normal !important;
+}

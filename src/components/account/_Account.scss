@@ -1,0 +1,77 @@
+.clear:after{
+    content: "";
+    display: table;
+  }
+  .clear:after{
+    clear:both;
+  }
+  .error{
+    color: red;
+  }
+  .account{
+    padding: 20px;
+    .el-input-group{
+      width: 300px;
+      float: right;
+    }
+    // table表格
+    .table{
+      margin-top: 20px;
+      font-size: 16px;
+    }
+    .el-table{
+      color: #333 !important;
+      text-align: center;
+    }
+    .el-table th{
+      border-right: 1px solid #2186ED !important;
+      border-bottom: 0 !important;
+      text-align: center;
+    }
+    .el-table th, .el-table td{
+      height: 50px;
+    }
+    .el-table th div{
+      color: #fff;
+    }
+    .el-button{
+      background: #FFFFFF;
+      border: 1px solid #2186ED;
+      border-radius: 6px;
+    }
+    .cell span{
+      padding: 10px 20px;
+    }
+    .el-button--default{
+      color: #2186ED !important;
+    }
+    .el-button--primary{
+      background-color: #2186ED;
+    }
+    .el-button--default:active{
+      color: rgb(30, 121, 213) !important;
+      background: #eee;
+    }
+  }
+  // 分页
+  .block{
+    padding-top: 30px;
+  }
+  .page{
+    .el-pagination{
+      float: right;
+    }
+    .btn-prev, .btn-next{
+      border: 1px solid #2186ED;
+      border-radius: 2px;
+      margin-right: 10px;
+      i{
+        color:#2186ED;
+      }
+    }
+    li{
+      margin-right: 10px;
+      border: 1px solid #2186ED !important;
+      color: #2186ED;
+    }
+  }

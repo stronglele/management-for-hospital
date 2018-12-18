@@ -1,0 +1,244 @@
+@import '../../assets/css/global';
+
+.metadata {
+  margin-left: 30px;
+  margin-right: 30px;
+
+  .el-select-dropdown__item {
+    font-size: 9px;
+    color: #333;
+  }
+
+  .data-table {
+    width: 100%;
+  }
+
+  .el-table .cell {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .data-table .el-table {
+    color: #333;
+    font-size: 14px;
+    border: none;
+  }
+
+  .data-table .el-table__header-wrapper thead div {
+    background-color: $color-primary;
+    color: white;
+  }
+
+  .data-table .el-table th {
+    background-color: $color-primary;
+    border: none;
+  }
+
+  .data-table .el-table td, .data-table .el-table tr {
+    border: none;
+  }
+
+  .data-table .el-table--striped .el-table__body tr.el-table__row--striped td {
+    background-color: $color-light;
+  }
+
+  .data-btn-add {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 0;
+    padding: 11px 19px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    color: $color-primary;
+    border: 1px solid $color-primary;
+  }
+
+  .data-plus {
+    font-size: 18px;
+  }
+
+  .data-btn {
+    font-size: 14px;
+    text-align: center;
+    color: $color-primary;
+    border: 1px solid $color-primary;
+    padding: 7px 9px;
+    border-radius: 5px;
+  }
+
+  .el-select:hover {
+    color: $color-primary;
+  }
+
+  .el-select-dropdown__item.hover, .el-select-dropdown__item:hover{
+    background-color: $color-primary;
+  }
+
+  .el-select, .el-input {
+    font-size: 14px;
+  }
+
+  .el-select .el-input .el-input__icon {
+    color: $color-primary;
+  }
+
+  .drug-select {
+    display: block;
+    float: left;
+    width: 50%;
+    margin-top: 15px;
+  }
+
+  .check-sub .el-select {
+    float: left;
+    margin-top: 15px;
+    padding-right: 10px;
+  }
+
+  .drug-add {
+    width: 10%;
+    float: right;
+  }
+
+  .check-sub .el-button {
+    float: right;
+  }
+
+  .el-form-item__content {
+    width: 70%;
+    float: right;
+  }
+
+  input.el-input__inner {
+    width: 215px;
+    border: 1px solid $color-primary;
+    font-size: 14px;
+    color: #333;
+  }
+
+  .el-select-dropdown{
+    width: 215px;
+  }
+  .el-dialog__headerbtn .el-dialog__close {
+    color: $color-primary;
+  }
+
+  .el-dialog__header {
+    text-align: center;
+  }
+
+  .el-dialog__title {
+    color: #333;
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .el-form-item__label {
+    color: #333;
+    font-size: 14px;
+  }
+
+  .dialog-footer {
+    text-align: center;
+  }
+  .el-dialog .el-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .el-button--default {
+    color: $color-primary;
+    border-color: $color-primary;
+  }
+
+  .el-dialog--small {
+    width: 40%;
+    border-radius: 5px;
+  }
+
+  .back {
+    color: $color-primary;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .title-first {
+    font-size: 14px;
+    color: #333;
+  }
+
+  .arrange .el-input {
+    margin-left: 15px;
+  }
+
+  .arrange .el-input__inner {
+    width: 80px;
+  }
+
+  .arrange .el-form-item {
+    display: flex;
+    width: 50%;
+    float: left;
+  }
+
+  .el-pagination {
+    margin-top: 20px;
+    float: right;
+    color: #666;
+  }
+
+  .el-pager {
+    font-size: 14px;
+    border-color: $color-primary;
+  }
+
+  .el-pager li.active + li {
+    border-left: 1px solid $color-primary;
+  }
+
+  .el-pager li {
+    margin-left: 5px;
+    padding-top: 0;
+    border-radius: 2px;
+    border-color: $color-primary;
+    border-right: 1px solid $color-primary;
+  }
+
+  .el-pagination .btn-prev {
+    border-right: 1px solid $color-primary;
+  }
+
+  .el-pagination .btn-next {
+    border-left: 1px solid $color-primary;
+    margin-left: 5px;
+  }
+
+  .el-pagination .btn-prev, .el-pagination .btn-next {
+    background-size: 9px;
+    border-radius: 2px;
+    border-color: $color-primary;
+    color: $color-primary;
+  }
+
+  .el-pagination .btn-prev .el-icon, .el-pagination .btn-next .el-icon {
+    font-size: 14px;
+  }
+
+  .el-pager li:last-child {
+    border-right: 1px solid $color-primary;
+  }
+
+  .el-pagination__editor {
+    margin-top: -5px;
+    width: 40px;
+    height: 24px;
+  }
+
+  .el-dialog__body{
+    font-size: 16px;
+  }
+
+}

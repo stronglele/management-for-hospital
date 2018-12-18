@@ -1,0 +1,85 @@
+@import '../../../assets/css/global';
+
+.caseform-wrapper {
+  padding: 30px 0 120px 0;
+  .tab-table {
+    padding: 0;
+    .el-table th > .cell {
+      color: $color-white !important;
+    }
+  }
+  .el-radio-group .el-radio {
+    margin-right: 15px !important;
+    margin-left: 0 !important;
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+  }
+  .el-form-item__label {
+    font-weight: 700 !important;
+  }
+  .el-radio__input.is-checked .el-radio__inner {
+    background: $color-white !important;
+  }
+  .el-radio__inner::after {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: $color-primary !important;
+  }
+  .caseform-button {
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    left: $width-navbar;
+    right: 0;
+    padding: 30px;
+    margin: 0 !important;
+    background-color: $color-white;
+    text-align: center;
+  }
+  .caseform-input {
+    width: 300px !important;
+  }
+  .drug-button {
+    margin: 15px 0 !important;
+    border-color: $color-primary !important;
+    color: $color-primary !important;
+  }
+  .button-base {
+    border-color: $color-primary !important;
+    color: $color-primary !important;
+  }
+  .drug-content {
+    position: relative;
+    margin: 15px 0;
+    padding: 30px;
+    border: 1px solid $color-border;
+  }
+  .el-table--enable-row-hover .el-table__body tr:hover > td {
+    color: $color-text-primary !important;
+    background-color: $color-white !important;
+  }
+
+  .el-table--enable-row-hover .el-table__body .el-table__row--striped:hover > td {
+    color: $color-text-primary !important;
+    background-color: $color-light !important;
+  }
+  .tab-table .el-table .cell{
+    padding: 10px 0;
+  }
+}
+
+.caseform-content {
+  position: relative;
+  margin: 25px 0 50px;
+  padding: 30px 30px 0;
+  border: 1px solid $color-border;
+  .title {
+    display: inline-block;
+    position: absolute;
+    top: -25px;
+    left: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background: $color-white;
+  }
+}
